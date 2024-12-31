@@ -12,6 +12,7 @@ html,body{
 }
 
 #navbar{
+    display: flex;
     align-items: center;
     position: relative;
     height: 60px;
@@ -79,4 +80,33 @@ html,body{
 #place{
     font-size: 14px;
     font-weight: bold;
+}
+
+#nav-search{
+    display: flex;
+    width: 900px;
+    height: 70%;
+    background-color:#131921;
+}
+
+#Departments{
+    width: 6%;
+    font-size: 12px;
+    border-radius: 5px;
+    
+}
+
+#search-input{
+    width: 89%;
+    border-radius: 4px;
+}
+
+.search-button{
+    width: 5%;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.search-button i{
+    height: 50%;
 }
