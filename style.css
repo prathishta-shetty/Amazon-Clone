@@ -88,7 +88,7 @@ html,body{
     height: 70%;
     background-color:#131921;
     border: 3px solid transparent;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 #nav-search:has(#search-input:focus) {
@@ -104,16 +104,34 @@ html,body{
     border-top-right-radius: 0; 
     border-bottom-right-radius: 0;
     background-color: #E6E6E6;
+    color: #706d6d;
+}
+
+#Departments:hover{
+    color: black;
 }
 
 #Departments:focus{
     border: 3px solid #F3A847;
 }
 
+/* #Departments option all-opt{
+    background-color: #E6E6E6;
+}
+
+#Departments option {
+    background-color: white;
+} */
+
 #search-input{
     width: 89%;
     outline: none;
     border: none;
+}
+
+#search-input::placeholder{
+    font-size: 15px;
+    padding-left: 10px;
 }
 
 #search-input:focus{
