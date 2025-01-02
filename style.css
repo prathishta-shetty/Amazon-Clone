@@ -142,7 +142,7 @@ html,body{
 .search-button{
     width: 5%;
     align-items: center;
-    background-color: #F3A847;
+    background-color:#FEBD69;
     border: 3px solid transparent;
     border-top-left-radius: 0; 
     border-bottom-left-radius: 0; 
@@ -150,6 +150,9 @@ html,body{
     border-bottom-right-radius: 5px;
 }
 
+.search-button:hover{
+    background-color:#F3A847; ;
+}
 .search-button:focus{
     border: 3px solid #F3A847;
 }
